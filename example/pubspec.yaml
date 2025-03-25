@@ -1,0 +1,27 @@
+name: cognition_package_demo_app
+description: A demo application for the Cognition Package
+publish_to: none
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cognition_package:
+    path: ../../cognition_package
+  # research_package:
+  #   path: ../../research.package/
+
+dev_dependencies:
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lang/
